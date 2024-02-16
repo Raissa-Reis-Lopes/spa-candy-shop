@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(255, 240, 242,0.4);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-info{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.body-home{
+    background-image: url("../img/doces.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.body-brigadeiro{
+    background-image: url("../img/brigadeiros.jpg");
+    background-size: cover;
+}
+
+.body-cupcakes{
+    background-image: url("../img/cupcake.jpg");
+    background-size: cover;
+}
+
+.body-doces{
+    background-image: url("../img/doces2.jpg");
+    background-size: cover;
+}
+
+.menu-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(99, 0, 99);
+    border: none;
+    height: 2rem;
+    width: 10rem;
+    border-radius: 20px 20px;
+    color: rgb(253, 253, 253);
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+button:hover{
+    scale: 1.1;
+}
